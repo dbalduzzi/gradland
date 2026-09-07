@@ -2,7 +2,7 @@
 
 Materials for "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions" and related work.
 
-- [`code/`](code/) — the open-source implementation: input/parameter Jacobians, transparency, cohesion, cohesive rank, a worked-example notebook, and the two papers' figure-generating scripts. See [`code/README.md`](code/README.md).
+- [`code/`](code/) — the open-source implementation: input/parameter Jacobians, transparency, cohesion, cohesive rank, and a worked-example notebook. See [`code/README.md`](code/README.md).
 
 ## License
 
