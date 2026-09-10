@@ -1,6 +1,6 @@
 # Gradland: code companion
 
-Code accompanying "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions" and related work.
+Code accompanying "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions" and "Metabolic Fire: Minimal Models of Affect, Purpose and Norms".
 
 ```
 jacobians.py                 input/parameter Jacobians of an nn.Module, any chosen neurons
@@ -58,8 +58,9 @@ Cohesion is exactly zero iff the matrix's bipartite graph is disconnected — ei
 
 ## `gradland.ipynb`
 
-Three sections, checked numerically inline throughout:
+The first three sections follow "Gradland"; the fourth comes from "Metabolic Fire".
 
 1. **Jacobians** — `input_jacobian`/`parameter_jacobian` on a small relu MLP, checked against finite differences and manual backward passes; picking out an intermediate layer as input or output.
 2. **Transparency, cohesion, cohesive rank** — singular-value spectra and effective rank on rank-1/identity/random matrices; cohesion on block-diagonal vs. dense matrices; cohesive rank on identity/all-ones/random/Hadamard matrices.
 3. **Worked examples** — two nets sharing an input; an MLP vs. an RNN vs. a tunable per-channel EMA cell over time; relu's dot-product identity and the KQ/VO paths of attention; gradient shattering with depth in a deep relu MLP; a block-diagonal Gram matrix from two non-interacting circuits, alongside a dense/cohesive matrix with an exactly diagonal Gram (cohesion and distinctness are independent).
+4. **The metabolic channel** — an example from "Metabolic Fire".
